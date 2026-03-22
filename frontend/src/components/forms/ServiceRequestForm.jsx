@@ -31,6 +31,9 @@ const allowedServices = [
 ];
 
 const ServiceRequestForm = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
   const [searchParams] = useSearchParams();
   const selectedService = searchParams.get("service") || "";
 
