@@ -280,7 +280,7 @@ const Services = () => {
                 </span>
               </div>
 
-              <h2 className="text-2xl font-semibold tracking-tight text-white sm:text-3xl">
+              <h2 className="text-xl font-semibold tracking-tight text-white md:text-3xl">
                 Why organizations trust us with their communications
               </h2>
 
@@ -299,7 +299,7 @@ const Services = () => {
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-3">
                     <CheckCircle className="mt-0.5 h-5 w-5 flex-shrink-0 text-indigo-400" />
-                    <span className="text-gray-300">{item}</span>
+                    <span className="text-gray-300 text-l">{item}</span>
                   </div>
                 ))}
               </div>
@@ -342,8 +342,8 @@ const Services = () => {
               <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-indigo-500 blur-3xl" />
             </div>
 
-            <div className="relative">
-              <h2 className="text-2xl font-semibold tracking-tight text-white sm:text-3xl">
+            <div className="relative mt-4">
+              <h2 className="text-xl font-semibold tracking-tight text-white md:text-2xl">
                 Ready to elevate your communications?
               </h2>
 
@@ -352,7 +352,7 @@ const Services = () => {
                 organization communicate with clarity, confidence, and impact.
               </p>
 
-              <div className="mt-8">
+              <div className="mt-8 mb-8">
                 <a
                   href="https://calendly.com/ivy3communication/30min?month=2026-03"
                   className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 text-base font-semibold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:bg-indigo-500"

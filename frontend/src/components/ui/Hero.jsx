@@ -52,18 +52,15 @@ const Hero = () => {
             </h1>
 
             {/* Description */}
-            <p className="mt-6 text-lg leading-relaxed text-gray-600 animate-fade-in-up animation-delay-100">
-              Ivy 3 Communications supports development institutions,
-              philanthropic organizations, and global partners with strategic
-              communications, advocacy, reputation management, media relations,
-              storytelling, and crisis communications.
+            <p className="mt-6 text-l leading-relaxed text-gray-600 animate-fade-in-up animation-delay-100">
+                We work with development institutions, philanthropic organizations, and global partners to communicate with clarity, build trust, and navigate complex environments with confidence.
             </p>
 
             {/* CTA Buttons - Improved Alignment */}
             <div className="mt-10 flex flex-col sm:flex-row gap-4 animate-fade-in-up animation-delay-200">
               <Link
                 to="/contact"
-                className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-gray-900 to-gray-800 px-8 py-4 text-base font-semibold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-indigo-200"
+                className="group relative inline-flex text- litems-center justify-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-gray-900 to-gray-800 px-8 py-4 text-base font-semibold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-indigo-200"
               >
                 <span className="relative z-10">Request Consultation</span>
                 <ArrowRight className="relative z-10 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
@@ -72,7 +69,7 @@ const Hero = () => {
 
               <Link
                 to="/services"
-                className="group inline-flex items-center justify-center gap-2 rounded-full border-2 border-gray-300 bg-white px-8 py-4 text-base font-semibold text-gray-700 shadow-sm transition-all duration-300 hover:border-indigo-400 hover:bg-gray-50 hover:text-indigo-600 hover:shadow-md"
+                className="group inline-flex items-center text-l justify-center gap-2 rounded-full border-2 border-gray-300 bg-white px-8 py-4 text-base font-semibold text-gray-700 shadow-sm transition-all duration-300 hover:border-indigo-400 hover:bg-gray-50 hover:text-indigo-600 hover:shadow-md"
               >
                 Explore Services
                 <ChevronRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />

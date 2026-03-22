@@ -33,7 +33,7 @@ const CTASection = () => {
                 </div>
 
                 {/* Main Heading */}
-                <h2 className="text-2xl font-bold tracking-tight text-white sm:text-3xl lg:text-4xl">
+                <h2 className="text-xl font-bold tracking-tight text-white sm:text-2xl lg:text-3xl">
                   Let's discuss how Ivy 3 Communications can support your next 
                   <span className="ml-2 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">
                     strategic priority
@@ -41,7 +41,7 @@ const CTASection = () => {
                 </h2>
 
                 {/* Description */}
-                <p className="mt-6 text-lg leading-relaxed text-gray-300">
+                <p className="mt-6 text-l leading-relaxed text-gray-300">
                   Whether you need communications advisory, reputation support,
                   advocacy strategy, or guidance during high-stakes moments, the
                   next step starts with a conversation.
@@ -54,7 +54,7 @@ const CTASection = () => {
               <div className="flex flex-col gap-4 lg:items-end">
                 <Link
                   to="/contact"
-                  className="group relative inline-flex items-center justify-center gap-3 overflow-hidden rounded-full bg-gradient-to-r from-indigo-600 to-indigo-500 px-8 py-4 text-base font-semibold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-indigo-500/30"
+                  className="group relative inline-flex items-center text-sm justify-center gap-3 overflow-hidden rounded-full bg-gradient-to-r from-indigo-600 to-indigo-500 px-8 py-4  font-semibold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-indigo-500/30"
                 >
                   <span className="relative z-10">Request Consultation</span>
                   <ArrowRight className="relative z-10 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
@@ -63,7 +63,7 @@ const CTASection = () => {
 
                 <Link
                   to="/services"
-                  className="group inline-flex items-center justify-center gap-2 rounded-full border-2 border-white/30 bg-white/10 backdrop-blur-sm px-8 py-4 text-base font-semibold text-white transition-all duration-300 hover:bg-white/20 hover:border-white/50 hover:scale-105"
+                  className="group inline-flex items-center text-sm justify-center gap-2 rounded-full border-2 border-white/30 bg-white/10 backdrop-blur-sm px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-white/20 hover:border-white/50 hover:scale-105"
                 >
                   Explore Our Services
                   <ChevronRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />

@@ -10,8 +10,12 @@ import {
   Heart,
   TrendingUp
 } from "lucide-react";
+import { useEffect } from "react";
 
 const About = () => {
+    useEffect (() => {
+        window.scrollTo(0, 0);
+    }, []);
   return (
     <>
       {/* Hero Section with Background Image */}
@@ -78,18 +82,18 @@ const About = () => {
                   Our Philosophy
                 </span>
               </div>
-              <h2 className="text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl">
+              <h2 className="text-xl font-semibold tracking-tight text-gray-900 sm:text-3xl">
                 A personalized way of working that delivers real outcomes
               </h2>
-              <p className="mt-6 text-lg leading-relaxed text-gray-600">
+              <p className="mt-6 text-l leading-relaxed text-gray-600">
                 At the center of the practice is a personalized way of working.
                 That matters because institutions do not all face the same
                 communications realities. Some need sharper strategic direction.
                 Others need stronger public positioning, more thoughtful advocacy,
                 or a steadier hand during sensitive moments.
               </p>
-              <p className="mt-5 text-lg leading-relaxed text-gray-600">
-                Ivy 3 Communications approaches this work with depth, discretion,
+              <p className="mt-5 text-l leading-relaxed text-gray-600">
+                We approach this work with depth, discretion,
                 and a clear focus on measurable outcomes. The goal is not just to
                 say the right things. It is to help organizations build trust,
                 strengthen credibility, and communicate in a way that supports
@@ -193,12 +197,12 @@ const About = () => {
                 </span>
               </div>
 
-              <h2 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
+              <h2 className="text-2xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
                 Trusted by institutions that shape impact
               </h2>
 
               <p className="mt-6 text-lg leading-relaxed text-gray-600">
-                Ivy 3 Communications works with organizations that understand the
+                We works with organizations that understand the
                 value of strong communications. Our clients include:
               </p>
 
@@ -238,7 +242,7 @@ const About = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-gray-900 py-20 lg:py-28">
+      <section className="bg-gray-900 py-10 lg:py-15">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-gray-800 to-gray-900 p-8 sm:p-12">
             <div className="absolute inset-0 opacity-10">
@@ -251,11 +255,11 @@ const About = () => {
                 <p className="mb-4 text-sm font-semibold uppercase tracking-[0.22em] text-indigo-300">
                   Let's connect
                 </p>
-                <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl">
+                <h2 className="text-xl font-bold leading-tight text-white md:text-3xl">
                   Looking for strategic communications support with depth and
                   credibility?
                 </h2>
-                <p className="mt-5 text-lg leading-8 text-gray-300">
+                <p className="mt-5 text-l leading-8 text-gray-300">
                   Start the conversation and explore how Ivy 3 Communications can
                   support your organization's priorities.
                 </p>
@@ -266,7 +270,7 @@ const About = () => {
                   href="https://calendly.com/ivy3communication/30min?month=2026-03"
                   target="_blank"
                   rel="noreferrer"
-                  className="group inline-flex items-center gap-2 rounded-full bg-white px-8 py-4 text-base font-semibold text-gray-900 transition-all duration-300 hover:scale-105 hover:shadow-xl"
+                  className="group inline-flex items-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-semibold text-gray-900 transition-all duration-300 hover:scale-105 hover:shadow-xl"
                 >
                   Book a Free Consultation
                   <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />

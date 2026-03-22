@@ -31,7 +31,7 @@ const AboutPreview = () => {
         <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-gray-100 blur-3xl" />
       </div>
 
-      <div className="relative mx-auto max-w-7xl px-3 py-8 lg:px-8 lg:py-15">
+      <div className="relative mx-auto max-w-7xl px-6 py-8 lg:px-8 lg:py-15">
         <div className="grid gap-16 lg:grid-cols-[1fr_0.9fr] lg:items-start lg:gap-12">
           {/* Left Column - Content */}
           <div className="max-w-3xl">
@@ -48,15 +48,12 @@ const AboutPreview = () => {
             </h2>
 
             <div className="mt-8 space-y-6">
-              <p className="text-lg leading-relaxed text-gray-600">
-                Ivy 3 Communications is led by Thoko Moyo, a seasoned C-suite
-                advisor and strategist who has worked across Africa, Europe, and the
-                United States. Her background spans development institutions,
-                academic institutions, and globally respected brands.
+              <p className="text-l leading-relaxed text-gray-600">
+              We brings cross-continental experience spanning Africa, Europe, and the United States, with a track record of supporting development institutions, academic institutions, and globally recognized organizations.
               </p>
 
-              <p className="text-lg leading-relaxed text-gray-600">
-                The work is rooted in a personalized approach that helps
+              <p className="text-l leading-relaxed text-gray-600">
+                Our work is rooted in a personalized approach that helps
                 organizations communicate with confidence, strengthen reputation,
                 and deliver measurable results where it matters most.
               </p>
